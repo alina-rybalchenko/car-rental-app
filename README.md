@@ -44,29 +44,32 @@ https://github.com/alina-rybalchenko/car-rental-app
 
 ## Project Structure
 
-app/
-page.tsx
-catalog/
-page.tsx
-[id]/page.tsx
+```sh
+app
+ ├ page.tsx
+ ├ catalog
+ │   ├ page.tsx
+ │   └ [id]
+ │       └ page.tsx
 
-components/
-catalog/
-details/
-home/
-shared/
+components
+ ├ catalog
+ ├ details
+ ├ home
+ └ shared
 
-lib/
-api/
-utils/
+lib
+ ├ api
+ └ utils
 
-store/
-carsStore.ts
-favoritesStore.ts
+store
+ ├ carsStore.ts
+ └ favoritesStore.ts
 
-types/
-car.ts
-filters.ts
+types
+ ├ car.ts
+ └ filters.ts
+```
 
 ---
 
@@ -84,21 +87,30 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/alina-rybalchenko/car-rental-app.git
+```
 
 Install dependencies:
 
+```bash
 npm install
+```
 
 Run the development server:
 
+```bash
 npm run dev
+```
 
 Open in browser:
 
 http://localhost:3000
 
-Author
+---
+
+## Author
 
 Alina Rybalchenko
+
+```
 
 ```
