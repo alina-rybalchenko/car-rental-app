@@ -27,10 +27,18 @@ https://github.com/alina-rybalchenko/car-rental-app
 
 ## Preview
 
+Home • Catalog • Details
+
 <p align="center">
-  <img src="./public/images/readme/home.png" width="30%" />
-  <img src="./public/images/readme/catalog.png" width="30%" />
-  <img src="./public/images/readme/details.png" width="30%" />
+  <a href="./public/images/readme/home.png">
+    <img src="./public/images/readme/home.png" height="250">
+  </a>
+  <a href="./public/images/readme/catalog.png">
+    <img src="./public/images/readme/catalog.png" height="250">
+  </a>
+  <a href="./public/images/readme/details.png">
+    <img src="./public/images/readme/details.png" height="250">
+  </a>
 </p>
 
 ---
