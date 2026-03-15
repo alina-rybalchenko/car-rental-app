@@ -7,20 +7,17 @@ The project allows users to view available vehicles, filter them by different cr
 
 ## Live Demo
 
-Live page:
+Live page:  
+https://car-rental-app-pli7.vercel.app/
 
 Repository:  
 https://github.com/alina-rybalchenko/car-rental-app
 
 ---
 
-## Technologies Used
+## Preview
 
-- Next.js (App Router)
-- TypeScript
-- Axios
-- Zustand
-- CSS Modules
+![Car Rental App](./public/images/hero@1x.jpg)
 
 ---
 
@@ -39,6 +36,26 @@ https://github.com/alina-rybalchenko/car-rental-app
 - Car details page
 - Rental form with success notification
 - Loading indicators for async requests
+
+---
+
+## Technologies Used
+
+- **Next.js (App Router)**
+- **TypeScript**
+- **Axios**
+- **Zustand**
+- **CSS Modules**
+
+---
+
+## State Management
+
+Zustand is used to manage:
+
+- cars list
+- filters
+- favorites
 
 ---
 
@@ -69,11 +86,17 @@ store
 types
  ├ car.ts
  └ filters.ts
+
+public
+ ├ images
+ │   ├ hero@1x.jpg
+ │   └ hero@2x.jpg
+ └ icons.svg
 ```
 
 ---
 
-## API
+## 🔌 API
 
 The application uses the provided backend API:
 
@@ -81,7 +104,7 @@ https://car-rental-api.goit.global/api-docs/
 
 ---
 
-## Installation
+## ⚙ Installation
 
 Clone the repository:
 
@@ -103,13 +126,23 @@ npm run dev
 
 Open in browser:
 
+```
 http://localhost:3000
+```
+
+---
+
+## Deployment
+
+The application is deployed on **Vercel**.
 
 ---
 
 ## Author
 
 Alina Rybalchenko
+
+---
 
 ```
 

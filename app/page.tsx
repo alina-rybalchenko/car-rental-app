@@ -1,9 +1,5 @@
-import styles from './page.module.css';
+import Hero from '@/components/home/Hero/Hero';
 
-export default function Home() {
-  return (
-    <div className={styles.page}>
-      <div className={`container ${styles.main}`}></div>
-    </div>
-  );
+export default function HomePage() {
+  return <Hero />;
 }

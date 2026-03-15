@@ -1,0 +1,42 @@
+.button {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+
+  width: 32px;
+  height: 32px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.25s ease;
+}
+
+.heartPath {
+  fill: transparent;
+  stroke: var(--white);
+  stroke-width: 2;
+  transition:
+    fill 0.25s ease,
+    stroke 0.25s ease;
+}
+
+.active .heartPath {
+  fill: var(--button);
+  stroke: var(--button);
+}
+
+.button:hover .icon,
+.button:focus .icon {
+  transform: scale(1.08);
+}

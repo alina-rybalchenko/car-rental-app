@@ -4,3 +4,8 @@ export interface Filters {
   minMileage: string;
   maxMileage: string;
 }
+
+export interface CarsQueryParams extends Partial<Filters> {
+  page?: number;
+  limit?: number;
+}

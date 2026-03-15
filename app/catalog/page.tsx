@@ -1,14 +1,11 @@
 import type { Metadata } from 'next';
+import CatalogPageContent from '@/components/catalog/CatalogPageContent/CatalogPageContent';
 
 export const metadata: Metadata = {
-  title: 'Rental Car catalog',
-  description: 'Renting car list',
+  title: 'Rental Car Catalog',
+  description: 'Browse available rental cars',
 };
 
 export default function CatalogPage() {
-  return (
-    <div className="container">
-      <h1>CatalogPage</h1>
-    </div>
-  );
+  return <CatalogPageContent />;
 }

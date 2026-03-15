@@ -1,0 +1,31 @@
+.list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  align-items: stretch;
+}
+
+.list li {
+  height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 32px 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 40px 28px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .list {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 48px 32px;
+  }
+}

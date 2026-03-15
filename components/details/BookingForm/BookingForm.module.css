@@ -1,0 +1,113 @@
+.section {
+  min-width: 0;
+}
+
+.card {
+  width: 100%;
+  padding: 32px;
+  border: 1px solid var(--divider);
+  border-radius: 10px;
+  background: var(--white);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin: 0 0 8px 0;
+
+  color: #101828;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.text {
+  margin: 0 0 24px 0;
+
+  color: #8d929a;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+  background: #f7f7f7;
+
+  color: #8d929a;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.input {
+  height: 48px;
+  padding: 12px 20px;
+  margin-bottom: 16px;
+}
+
+.textarea {
+  height: 88px;
+  padding: 12px 20px 56px;
+  resize: none;
+}
+
+.buttonWrapper {
+  margin-top: auto;
+  padding-top: 24px;
+  padding-bottom: 32px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  width: 156px;
+  height: 44px;
+  padding: 12px 51px;
+
+  border: none;
+  border-radius: 12px;
+
+  background: #3470ff;
+
+  color: #fff;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+
+  transition: background-color 0.25s ease;
+}
+
+.button:hover,
+.button:focus {
+  background: #0b44cd;
+}
+
+@media screen and (min-width: 1024px) {
+  .card {
+    box-sizing: border-box;
+    width: 640px;
+    height: 488px;
+  }
+
+  .input,
+  .textarea {
+    width: 576px;
+  }
+}

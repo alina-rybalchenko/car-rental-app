@@ -1,0 +1,86 @@
+.hero {
+  height: 700px;
+  padding-top: 4px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image:
+    linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.55) 0%,
+      rgba(0, 0, 0, 0.2) 35%,
+      rgba(0, 0, 0, 0) 70%
+    ),
+    image-set(url('/images/hero@1x.jpg') 1x, url('/images/hero@2x.jpg') 2x);
+}
+
+.heroContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  padding-bottom: 60px;
+}
+
+.heroContent {
+  width: 100%;
+  max-width: 783px;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--white);
+}
+
+.heroTitle {
+  margin: 0 0 16px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+.description {
+  margin: 0 0 40px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  max-width: 100%;
+  padding: 12px 32px;
+  border-radius: 12px;
+  background-color: var(--button);
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--button-hover);
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    height: 700px;
+  }
+
+  .heroTitle {
+    font-size: 60px;
+  }
+
+  .description {
+    font-size: 24px;
+  }
+
+  .button {
+    min-width: 276px;
+    padding: 12px 88px;
+  }
+}
