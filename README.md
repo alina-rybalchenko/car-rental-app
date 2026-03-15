@@ -1,41 +1,37 @@
 # Car Rental App 🚗
 
-Frontend web application for browsing and renting cars.  
+Frontend web application for browsing and renting cars.
 The project allows users to view available vehicles, filter them by different criteria, add cars to favorites, and submit a rental request.
+
+---
+
+## Tech Stack
+
+![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-blue?logo=typescript)
+![Zustand](https://img.shields.io/badge/Zustand-state%20management-orange)
+![Axios](https://img.shields.io/badge/Axios-HTTP%20client-purple)
+![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel)
 
 ---
 
 ## Live Demo
 
-Live page:  
+Live page:
 https://car-rental-app-pli7.vercel.app/
 
-Repository:  
+Repository:
 https://github.com/alina-rybalchenko/car-rental-app
 
 ---
 
 ## Preview
 
-![Car Rental App](./public/images/hero@1x.jpg)
-
----
-
-## Features
-
-- Home page with banner and call to action
-- Catalog page with list of available cars
-- Filtering cars by:
-  - brand
-  - price
-  - mileage (from / to)
-- Backend filtering via API
-- Pagination with **Load More** button
-- Add cars to favorites
-- Favorites persist after page reload
-- Car details page
-- Rental form with success notification
-- Loading indicators for async requests
+<p align="center">
+  <img src="./public/images/readme/home.png" width="30%" />
+  <img src="./public/images/readme/catalog.png" width="30%" />
+  <img src="./public/images/readme/details.png" width="30%" />
+</p>
 
 ---
 
@@ -56,6 +52,24 @@ Zustand is used to manage:
 - cars list
 - filters
 - favorites
+
+---
+
+## Features
+
+- Home page with banner and call to action
+- Catalog page with list of available cars
+- Filtering cars by:
+  - brand
+  - price
+  - mileage (from / to)
+- Backend filtering via API
+- Pagination with **Load More** button
+- Add cars to favorites
+- Favorites persist after page reload
+- Car details page
+- Rental form with success notification
+- Loading indicators for async requests
 
 ---
 
@@ -104,6 +118,15 @@ https://car-rental-api.goit.global/api-docs/
 
 ---
 
+## Prerequisites
+
+Make sure you have the following installed:
+
+- Node.js (version 18 or higher)
+- npm or yarn
+
+---
+
 ## ⚙ Installation
 
 Clone the repository:
@@ -143,7 +166,3 @@ The application is deployed on **Vercel**.
 Alina Rybalchenko
 
 ---
-
-```
-
-```
